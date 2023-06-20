@@ -6,21 +6,118 @@ body{
 header{
 display: flex;
 justify-content: center;
+background-color: #1f2937;
+height: 80vh;
 }
 .header-section{
     width: 1200px;
+    padding: 10px;;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    border: solid 2px red;
+    margin-bottom: 50px;
 }
-#logo{
-display: flex;
-align-items: center;
+#logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
 }
 ul{
     display: flex;
     list-style-type: none;
     gap: 15px;
+}
+header a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.banner{
+    display: flex;
+    margin-top: 50px;
+    height: 60vh;
+    align-items: center;
+    gap: 50px;
+}
+.left{
+    /* width: 50%; */
+    flex:1;
+}
+.hero{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.left p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.right{
+    background-color: #3e4349;
+    height: 45%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex: 1;
+}
+.sign-up-btn{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+/*This is the information container*/
+section{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 800px;
+}
+.info-img{
+    border: solid 3px #3882f6;
+    height: 20vh;
+    border-radius: 10px;
+}
+.col-sec{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+.testimonial-block{
+    width : 800px;
+    height: 30vh;
+}
+.testimonial-block p:nth-child(1){
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.testimonial-block p:nth-child(2){
+    color: rgb(10, 10, 12);
+    float: right;
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-top: 0;
 }
