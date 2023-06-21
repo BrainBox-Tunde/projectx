@@ -67,10 +67,11 @@ header a{
     color: #e5e7eb;
     background-color: #3882f6;
     border-radius: 5px;
-    width: 300px;
+    width: 100px;
     text-align: center;
     padding: 10px;
     font-weight: 700;
+    display: block;
 }
 
 /*This is the information container*/
@@ -105,8 +106,9 @@ section{
     justify-content: center;
 }
 .testimonial-block{
-    width : 800px;
+    width : 777px;
     height: 30vh;
+    
 }
 .testimonial-block p:nth-child(1){
     color: #1f2937;
@@ -120,4 +122,42 @@ section{
     font-weight: 600;
     font-size: 1.3em;
     margin-top: 0;
+}
+.call-to-action-block{
+    background-color: #3882f6;
+    width: 800px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 98px;
+    padding-right: 98px;
+    align-items: center;
+    border-radius: 5px;
+    align-items: center;
+}
+.call-to-action-block h3{
+    color:#f9faf8;
+    margin-bottom: 0px;
+}
+.call-to-action-block p{
+    color:#f9faf8;
+    margin-top: 0px;
+}
+.call-to-action-block a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 16px;
+    border: solid 2px #e5e7eb;
+    padding: 5px;
+    border-radius: 5px;
+    width:70px;
+    text-align: center;
+}
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
