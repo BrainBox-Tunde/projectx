@@ -108,21 +108,21 @@ section{
 .testimonial-block{
     width : 777px;
     height: 30vh;
+    padding: 0;
     
 }
 .testimonial-block p:nth-child(1){
     color: #1f2937;
-    font-size: 36px;
+    font-size: 25px;
     font-style: italic;
-    margin-bottom: 0;
+    padding: 0;
 }
 .testimonial-block p:nth-child(2){
     color: rgb(10, 10, 12);
     float: right;
     font-weight: 600;
     font-size: 1.3em;
-    margin-top: 0;
-}
+} 
 .call-to-action-block{
     background-color: #3882f6;
     width: 800px;
